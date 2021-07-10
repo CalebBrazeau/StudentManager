@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="337.0" prefWidth="505.0">
+         <children>
+            <Label layoutX="131.0" layoutY="68.0" text="Student Manager" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font size="29.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <VBox layoutX="203.0" layoutY="131.0" prefHeight="200.0" prefWidth="95.0" spacing="20.0">
+               <children>
+                  <Button fx:id="btnStudentLogin" mnemonicParsing="false" onAction="#clickBtnStudentLogin" prefHeight="25.0" prefWidth="91.0" text="Student Login" />
+                  <Button fx:id="btnTeacherLogin" mnemonicParsing="false" onAction="#clickBtnTeacherLogin" prefHeight="25.0" prefWidth="91.0" text="Teacher Login" />
+                  <Button fx:id="btnAdminLogin" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onAction="#clickBtnAdminLogin" prefHeight="25.0" prefWidth="91.0" text="Admin Login" />
+                  <Button fx:id="btnExit" layoutX="10.0" layoutY="101.0" mnemonicParsing="false" onAction="#clickBtnExit" prefHeight="25.0" prefWidth="91.0" text="Exit" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

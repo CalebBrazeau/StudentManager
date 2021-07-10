@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TeacherPageController">
+    <children>
+        <VBox layoutX="112.0" layoutY="20.0" prefHeight="82.0" prefWidth="44.0">
+            <children>
+                <Label text="ID:" />
+                <Label text="Name:" />
+                <Label text="Classes:" />
+            </children>
+        </VBox>
+        <VBox layoutX="156.0" layoutY="20.0" prefHeight="82.0" prefWidth="146.0">
+            <children>
+                <Label fx:id="txtID" text="ID PlaceHolder" />
+                <Label fx:id="txtName" text="Name T. PlaceHolder" />
+                <Label fx:id="txtClasses" text="ClassesPlaceHolder" />
+            </children>
+        </VBox>
+        <ImageView fitHeight="112.0" fitWidth="98.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Image/TeacherImagePlaceHolder.png" />
+            </image></ImageView>
+        <MenuButton fx:id="navigationMenu" layoutX="487.0" layoutY="20.0" mnemonicParsing="false" text="Navigation">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+            </items>
+        </MenuButton>
+    </children>
+</AnchorPane>
