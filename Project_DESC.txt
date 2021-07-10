@@ -1,0 +1,9 @@
+Project Description:
+        Student Management System is one of the best beginner-level projects in Java.
+    This will require the concepts of Object-Oriented features and JDBC of Java.
+    You will have to create an application that stores all details related to students.
+    There will be operations like enrolling or adding a new student into the database,fees payment,
+    show performance details, view balance, etc.
+    This is one of the best Java projects to implement the database and OOPs concepts.
+Credit:
+    https://techvidvan.com/tutorials/java-project-ideas/
