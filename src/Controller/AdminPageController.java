@@ -1,10 +1,7 @@
 package Controller;
 
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -26,6 +23,9 @@ public class AdminPageController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        
+        MenuItem menuItem1 = new MenuItem("Student Lookup");
+        MenuItem menuItem2 = new MenuItem("Teacher Lookup");
+        MenuItem menuItem3 = new MenuItem("Something Else");
+        menuNavigation.getItems().addAll(menuItem1, menuItem2, menuItem3);
     }
 }

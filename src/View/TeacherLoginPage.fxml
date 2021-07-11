@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TeacherLoginController">
+    <children>
+        <Label fx:id="txtLogin" layoutX="212.0" layoutY="60.0" text="Teacher Login">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <VBox layoutX="131.0" layoutY="169.0" prefHeight="71.0" prefWidth="337.0" spacing="15.0">
+            <children>
+                <TextField fx:id="fieldUsername" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Username" />
+                <PasswordField fx:id="fieldPassword" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Password" />
+            </children>
+            <padding>
+                <Insets left="90.0" />
+            </padding>
+        </VBox>
+        <HBox layoutX="200.0" layoutY="259.0" prefHeight="35.0" prefWidth="200.0" spacing="25.0">
+            <children>
+                <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#clickBtnLogin" prefHeight="25.0" prefWidth="46.0" text="Login" />
+                <Button fx:id="btnReset" mnemonicParsing="false" onAction="#clickBtnReset" prefHeight="25.0" prefWidth="46.0" text="Reset" />
+                <Button fx:id="btnExit" mnemonicParsing="false" onAction="#clickBtnExit" prefHeight="25.0" prefWidth="46.0" text="Exit" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>
